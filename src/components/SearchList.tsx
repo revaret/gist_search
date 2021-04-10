@@ -11,7 +11,6 @@ const SearchList = (): JSX.Element => {
     const fileNames = Object.keys(files);
     return fileNames.length > 0 ? fileNames.toString() : '';
   };
-  console.log(gistResponse);
   return (
     <div className="list">
       {gistResponse.map((item, index) => (

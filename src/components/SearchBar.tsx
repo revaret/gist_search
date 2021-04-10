@@ -9,6 +9,7 @@ const SearchBar = (): JSX.Element => {
   return (
     <div className="input-container">
       <input
+        data-testid="search-input"
         onChange={onQueryChange}
         className="search-input"
         placeholder="Enter git username"

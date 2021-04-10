@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render search list correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <div
+        class="input-container"
+      >
+        <input
+          class="search-input"
+          data-testid="search-input"
+          placeholder="Enter git username"
+        />
+      </div>
+      <div
+        class="list"
+      >
+        <div
+          class="list-element"
+        >
+          <img
+            class="user-image"
+            src="https://github.com/images/error/octocat_happy.gif"
+          />
+          <div
+            class="list-right-items"
+          >
+            <div
+              class="file-name"
+            >
+              hello_world.rb
+            </div>
+            <div
+              class="gist-url"
+            >
+              <a
+                href="https://api.github.com/gists/aa5a315d61ae9438b18d"
+              >
+                https://api.github.com/gists/aa5a315d61ae9438b18d
+              </a>
+            </div>
+            <div
+              class="language-container"
+            >
+              <div
+                class="languages"
+              >
+                Ruby
+              </div>
+            </div>
+            <div
+              class="fork-container"
+            >
+              <div
+                class="fork-title"
+              >
+                Forked users:
+              </div>
+              <div>
+                <a
+                  href="https://gist.github.com/aa5a315d61ae9438b18d"
+                >
+                  <img
+                    alt="octocat"
+                    class="fork-image"
+                    src="https://github.com/images/error/octocat_happy.gif"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
