@@ -1,0 +1,65 @@
+.input-container {
+  padding: 40px 40px 0 40px;
+  .search-input {
+    display: flex;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+  }
+}
+
+.list {
+  padding: 40px;
+  .list-element {
+    height: 120px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    margin: 16px 0;
+    border-radius: 4px;
+    display: flex;
+    .user-image {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      margin: 0 8px 0 0;
+    }
+
+    .list-right-items {
+      display: block;
+      .file-name {
+        display: flex;
+        font-weight: bold;
+      }
+      .gist-url {
+        display: flex;
+      }
+    }
+  }
+}
+
+.language-container {
+  display: flex;
+  .languages {
+    margin: 4px 4px 0 0;
+    padding: 4px;
+    background: cornflowerblue;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+}
+
+.fork-container {
+  display: flex;
+  align-items: center;
+  .fork-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 8px 0 0;
+  }
+  .fork-image {
+    height: 24px;
+    width: 24px;
+    margin: 4px 4px 0 0;
+  }
+}
