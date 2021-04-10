@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Gist search by user React App
 
 This project is a basic single-page application with ReactJS framework. Which uses the API provided by Github Gist API to allow its users to enter a username and get the full list of public Gists for that user.
 
